@@ -50,7 +50,7 @@ body {
 
 .add-input {
     display: inline-block;
-    width: 85% !important;
+    width: 80% !important;
 }
 
 .li-heading {
@@ -58,3 +58,26 @@ body {
     margin-top: 7px;
 }
 
+.li-alert {
+    position: relative;
+    left: 100vw;
+    animation: fadeIn 0.2s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        left: 0vw;
+    }
+}
+
+.li-alert-delete {
+    position: relative;
+    left: 0vw;
+    animation: deleteOut 0.2s ease-in forwards;
+}
+
+@keyframes deleteOut {
+    to {
+        left: 100vw;
+    }
+}
