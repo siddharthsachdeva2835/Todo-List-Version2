@@ -195,6 +195,7 @@ window.onload = function () {
         for( let i=0 ; i < arrcount ; i++ ) {
             ul.removeChild(copyarr[i]);
         }
+        HandlesButtons();
     }
 
     let sortListItems = function(){
@@ -214,6 +215,7 @@ window.onload = function () {
                 }
             }
         }
+        HandlesButtons();
     }
 
     let addBtn = this.document.getElementsByClassName('add-btn')[0];
