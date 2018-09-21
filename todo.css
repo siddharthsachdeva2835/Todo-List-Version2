@@ -1,0 +1,60 @@
+body {
+    background-color: #d4edda !important;
+    height: 100vh;
+}
+
+.my-nav {
+    position: fixed !important;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 150px;
+    z-index: 999;
+}
+
+.todo-list {
+    list-style: none;
+    margin-top: 150px !important;
+    margin-block-start: 0px;
+    padding-inline-start: 0px;
+}
+
+.heading {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: azure;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.check {
+    position: absolute;
+    left:300px;
+    top:30px;
+}
+
+.li-btn {
+    float: right;
+}
+
+.checked{
+    text-decoration: line-through;
+}
+
+.alert {
+    height: 70px;
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+    border-radius:0px !important; 
+}
+
+.add-input {
+    display: inline-block;
+    width: 85% !important;
+}
+
+.li-heading {
+    display: inline-block;
+    margin-top: 7px;
+}
+
